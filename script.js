@@ -6,12 +6,24 @@
 // console.log(rgb(15, 15));
 
 
-const avg = () => {
+    // const avg = () => {
+    //     let sum = 0;
+    //     for(let i = 0; i < arguments.length; i++){
+    //         sum += arguments[i];
+    //     }
+    //     return sum / arguments.length;
+    // }
+
+    // console.log(avg(1,2,3))
+    // console.log(arguments)
+
+
+function avg(){
     let sum = 0;
     for(let i = 0; i < arguments.length; i++){
         sum += arguments[i];
     }
     return sum / arguments.length;
 }
-
-console.log(avg(1, 2))
+console.log(avg(1,2,3,45,45,54,4,5,5,8,5,8))
+    // console.log(arguments)
