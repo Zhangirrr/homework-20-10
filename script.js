@@ -37,8 +37,8 @@
 
 
 
-    function repeat(str, n = 2) {
+    function repeat(str, n) {
         return str.repeat(n);
     }
     
-    console.log(repeat('asd', 2));
+    console.log(repeat(`Алиби слабый в фифу` + " "  , 2));
